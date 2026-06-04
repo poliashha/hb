@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Приглашение на День Рождения | 10.06.2026" />
+    <meta property="og:image" content="./img/iconanna.jpg" />
+    <meta property="og:image:width" content="414" />
+    <meta property="og:image:height" content="414" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta name="color-scheme" content="light" />
+    <title>Приглашение на День Рождения</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/variabels.css" />
+    <link rel="icon" href="img/iconsergey.svg" sizes="any" />
+    <link rel="icon" href="img/iconsergey.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="header">
+     <img class="fotoanna " src="./img/fotoanna.jpg" alt="">
+      <div class="box-priglos">
+        <h1 class="title">ПРИГЛАШЕНИЕ <br/>
+НА ДЕНЬ РОЖДЕНИЯ</h1>
+        <h1 class="kursiv-text small-text">10.06.2026</h1>
+       
+    </header>
+    <main class="main">
+      <article class="privet">
+       
+        <object
+          class="heart"
+          type="image/svg+xml"
+          data="./img/miniheart.svg"
+          width="21"
+          height="16"
+        ></object>
+        <h2 class="center-text kursiv-text">Дорогие друзья!</h2>
+        <p class="title adress-text">
+           Совсем скоро наступит значимый для меня день и я хочу разделить его с вами, моими самыми близкими и любимыми людьми
+        </p>
+        
+      </article>
+
+      <article class="calendar">
+        <p class="kursiv-text">Июнь, 2026</p>
+        <object
+          class="line"
+          type="image/svg+xml"
+          data="./img/calendaranns.svg"
+          width="367"
+          height="167"
+        ></object>
+
+        <object
+          class="line"
+          type="image/svg+xml"
+          data="./img/placet.svg"
+          width="412"
+          height="238"
+        ></object>
+      </article>
+      <article>
+        <div class="cermotion">
+          <h3 class="title">МЕСТО ПРОВЕДЕНИЯ</h3>
+          <p class="title adress-text">
+           Банкетный зал «Колиzей Холл»<br/>
+Он находиться по адресу: <br/>Проспект мира 109А
+          </p>
+          <p class="title adress-text">
+           На теории есть парковка, если планируете приехать на своем автомобиле
+          </p>
+          <button
+            class="map-button hover"
+            onclick="window.open('https://yandex.ru/maps/-/CPXW7UzR', '_blank')"
+          >
+            Маршрут
+          </button>
+        </div>
+        <object
+          class="hotel"
+          type="image/svg+xml"
+          data="./img/hotel.svg"
+          width="412"
+          height="483"
+        ></object>
+      </article>
+      <article class="programma">
+        <p class="conteiner_text title box-programma">ПРОГРАММА</p>
+        <div class="raspisanie">
+          <div class="box-text">
+            <p class="kursiv-text">Сбор гостей</p>
+            <p class="title data-text">17:00</p>
+            <p class="title paragraf">Время пролетит незаметно за игристым, легкими закусками и общением с другими гостями</p>
+          </div>
+          <div class="box-text">
+            <p class="kursiv-text">Начало праздника</p>
+            <p class="title data-text">18:00</p>
+            <p class="title paragraf">Время вкусной еды, зажигательных танцев и шоу программы с ведущим </p>
+          </div>
+          <div class="box-text">
+            <p class="kursiv-text">Праздничный торт</p>
+            <p class="title data-text">21:30</p>
+            <p class="title paragraf">Я загадаю самое заветное желание, которое сбудется в новом году</p>
+          </div>
+         
+        </div>
+      </article>
+      <article class="dresscode">
+        <img class="bucet-foto" src="./img/dresscode.jpg" alt="" />
+        <div class="box-dress">
+          <h4 class="conteiner_text title">Дресс-код</h4>
+        </div>
+        <p class="title dress-text">
+          Для меня главное - ваше присутствие!
+Буду очень благодарна, если вы выберете стиль Cocktail или<br/>
+ Smart Casual на праздник
+        </p>
+        
+      </article>
+   
+      <article class="form">
+        <h4 class="conteiner_text title">АНКЕТА</h4>
+         <p class="title korrect-text">
+          Ваши ответы помогут мне 
+при организации торжества. 
+        </p>
+        <form  class="form-box" name="submit-to-google-sheet" id="form" action="#">
+          <label class="input_box">Ваши имя и фамилия
+          <input
+            class="input"
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Имя Фамилия" required
+          />
+          <span class="error-text" id="error-text">Пожалуйста, заполните поле</span>
+        </label>
+          
+     
+<fieldset class="radio">
+  <h2 class=" radio-text varints-text">
+             Какой алкоголь вы предпочитаете?
+            </h2>
+            
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="шампанское"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Шампанское</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="красное вино"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Красное вино</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="белое вино"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Белое вино</span>
+          </label>
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="виски"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Виски</span>
+          </label>
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="коньяк"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Коньяк</span>
+          </label>
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="безалкогольные напитки"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Безалкогольные напитки</span>
+          </label>
+           
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="your"
+            type="checkbox"
+            class="checkbox__input"
+            value="cвой вариант"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Свой вариант</span>
+          </label>
+           
+            <label class="input_box variant_box" id="variantBox">Введите ваш вариант:
+          <input
+            class="input"
+            name="variant"
+            id="variant"
+            type="text"
+            placeholder="Ваш вариант" 
+          />
+          
+        </label>
+
+          
+          <button class="map-button button hover" type="submit"><p class="href-button button-text">Отправить</p></button>
+          <div class="form-send"></div>
+        </form>
+      </article>
+     
+      <footer class="footer">
+        <h5 class="kursiv-text center-text black-kursiv">До встречи!</h5>
+      </footer>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
